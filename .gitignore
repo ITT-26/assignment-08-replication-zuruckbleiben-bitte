@@ -1,0 +1,31 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python environments, caches, and build artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+*.egg-info/
+
+# Node and Vite dependencies, caches, and build artifacts
+node_modules/
+.pnpm-store/
+.vite/
+dist/
+*.tsbuildinfo
+*.log
