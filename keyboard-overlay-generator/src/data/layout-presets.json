@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "kind": "visual-twinpads-layout-presets",
+  "default_preset": "iso-de",
+  "default_label_profile": "macos",
+  "default_assignment": {
+    "built-in": "left",
+    "external": "right"
+  },
+  "defaults": {
+    "space_enabled": {
+      "left": true,
+      "right": true
+    },
+    "backspace_enabled": {
+      "left": false,
+      "right": false
+    },
+    "backspace_share": {
+      "left": 0.3,
+      "right": 0.3
+    },
+    "key_block_inset_mm": 5,
+    "key_spacing_mm": 1
+  },
+  "presets": {
+    "alpha-de": {
+      "name": "A-Z reduziert (QWERTZ)",
+      "action_slot": {
+        "x0": 0.0,
+        "y0": 0.82,
+        "x1": 1.0,
+        "y1": 1.0
+      },
+      "sides": {
+        "left": [
+          {"id": "q", "label": "Q", "output": "Q", "action": "insert", "x0": 0.0, "y0": 0.0, "x1": 0.2, "y1": 0.25},
+          {"id": "w", "label": "W", "output": "W", "action": "insert", "x0": 0.2, "y0": 0.0, "x1": 0.4, "y1": 0.25},
+          {"id": "e", "label": "E", "output": "E", "action": "insert", "x0": 0.4, "y0": 0.0, "x1": 0.6, "y1": 0.25},
+          {"id": "r", "label": "R", "output": "R", "action": "insert", "x0": 0.6, "y0": 0.0, "x1": 0.8, "y1": 0.25},
+          {"id": "t", "label": "T", "output": "T", "action": "insert", "x0": 0.8, "y0": 0.0, "x1": 1.0, "y1": 0.25},
+          {"id": "a", "label": "A", "output": "A", "action": "insert", "x0": 0.0, "y0": 0.27, "x1": 0.2, "y1": 0.52},
+          {"id": "s", "label": "S", "output": "S", "action": "insert", "x0": 0.2, "y0": 0.27, "x1": 0.4, "y1": 0.52},
+          {"id": "d", "label": "D", "output": "D", "action": "insert", "x0": 0.4, "y0": 0.27, "x1": 0.6, "y1": 0.52},
+          {"id": "f", "label": "F", "output": "F", "action": "insert", "x0": 0.6, "y0": 0.27, "x1": 0.8, "y1": 0.52},
+          {"id": "g", "label": "G", "output": "G", "action": "insert", "x0": 0.8, "y0": 0.27, "x1": 1.0, "y1": 0.52},
+          {"id": "y", "label": "Y", "output": "Y", "action": "insert", "x0": 0.0, "y0": 0.54, "x1": 0.2, "y1": 0.79},
+          {"id": "x", "label": "X", "output": "X", "action": "insert", "x0": 0.2, "y0": 0.54, "x1": 0.4, "y1": 0.79},
+          {"id": "c", "label": "C", "output": "C", "action": "insert", "x0": 0.4, "y0": 0.54, "x1": 0.6, "y1": 0.79},
+          {"id": "v", "label": "V", "output": "V", "action": "insert", "x0": 0.6, "y0": 0.54, "x1": 0.8, "y1": 0.79},
+          {"id": "b", "label": "B", "output": "B", "action": "insert", "x0": 0.8, "y0": 0.54, "x1": 1.0, "y1": 0.79}
+        ],
+        "right": [
+          {"id": "z", "label": "Z", "output": "Z", "action": "insert", "x0": 0.0, "y0": 0.0, "x1": 0.2, "y1": 0.25},
+          {"id": "u", "label": "U", "output": "U", "action": "insert", "x0": 0.2, "y0": 0.0, "x1": 0.4, "y1": 0.25},
+          {"id": "i", "label": "I", "output": "I", "action": "insert", "x0": 0.4, "y0": 0.0, "x1": 0.6, "y1": 0.25},
+          {"id": "o", "label": "O", "output": "O", "action": "insert", "x0": 0.6, "y0": 0.0, "x1": 0.8, "y1": 0.25},
+          {"id": "p", "label": "P", "output": "P", "action": "insert", "x0": 0.8, "y0": 0.0, "x1": 1.0, "y1": 0.25},
+          {"id": "h", "label": "H", "output": "H", "action": "insert", "x0": 0.0, "y0": 0.27, "x1": 0.25, "y1": 0.52},
+          {"id": "j", "label": "J", "output": "J", "action": "insert", "x0": 0.25, "y0": 0.27, "x1": 0.5, "y1": 0.52},
+          {"id": "k", "label": "K", "output": "K", "action": "insert", "x0": 0.5, "y0": 0.27, "x1": 0.75, "y1": 0.52},
+          {"id": "l", "label": "L", "output": "L", "action": "insert", "x0": 0.75, "y0": 0.27, "x1": 1.0, "y1": 0.52},
+          {"id": "n", "label": "N", "output": "N", "action": "insert", "x0": 0.25, "y0": 0.54, "x1": 0.5, "y1": 0.79},
+          {"id": "m", "label": "M", "output": "M", "action": "insert", "x0": 0.5, "y0": 0.54, "x1": 0.75, "y1": 0.79}
+        ]
+      }
+    },
+    "iso-de": {
+      "name": "Deutscher ISO-Hauptblock",
+      "geometry": {
+        "key_height": 1.0,
+        "key_gap": 0.09,
+        "row_gap": 0.1,
+        "padding_mm": 5.0
+      },
+      "rows": [
+        {
+          "id": "number",
+          "keys": [
+            {"id":"iso-top-left","width":1,"labels":{"pc":["^","°",""],"macos":["<",">","≤"]}},
+            {"id":"digit-1","width":1,"labels":{"pc":["1","!",""],"macos":["1","!","¡"]}},
+            {"id":"digit-2","width":1,"labels":{"pc":["2","\"","²"],"macos":["2","\"","“"]}},
+            {"id":"digit-3","width":1,"labels":{"pc":["3","§","³"],"macos":["3","§","¶"]}},
+            {"id":"digit-4","width":1,"labels":{"pc":["4","$",""],"macos":["4","$","¢"]}},
+            {"id":"digit-5","width":1,"labels":{"pc":["5","%",""],"macos":["5","%","["]}},
+            {"id":"digit-6","width":1,"labels":{"pc":["6","&",""],"macos":["6","&","]"]}},
+            {"id":"digit-7","width":1,"labels":{"pc":["7","/","{"],"macos":["7","/","|"]}},
+            {"id":"digit-8","width":1,"labels":{"pc":["8","(","["],"macos":["8","(","{"]}},
+            {"id":"digit-9","width":1,"labels":{"pc":["9",")","]"],"macos":["9",")","}"]}},
+            {"id":"digit-0","width":1,"labels":{"pc":["0","=","}"],"macos":["0","=","≠"]}},
+            {"id":"eszett","width":1,"labels":{"pc":["ß","?","\\"],"macos":["ß","?","¿"]}},
+            {"id":"acute","width":1,"labels":{"pc":["´","`",""],"macos":["´","`","'"]}},
+            {"id":"backspace","width":2,"fixed_side":"right","action":"backspace","labels":{"pc":["Rück","",""],"macos":["⌫","",""]}}
+          ]
+        },
+        {
+          "id": "top",
+          "keys": [
+            {"id":"tab","width":1.5,"fixed_side":"left","action":"modifier","labels":{"pc":["Tab","",""],"macos":["⇥","",""]}},
+            {"id":"q","width":1,"labels":{"pc":["Q","","@"],"macos":["Q","","«"]}},
+            {"id":"w","width":1,"labels":{"pc":["W","",""],"macos":["W","","∑"]}},
+            {"id":"e","width":1,"labels":{"pc":["E","","€"],"macos":["E","","€"]}},
+            {"id":"r","width":1,"labels":{"pc":["R","",""],"macos":["R","","®"]}},
+            {"id":"t","width":1,"labels":{"pc":["T","",""],"macos":["T","","†"]}},
+            {"id":"z","width":1,"labels":{"pc":["Z","",""],"macos":["Z","","Ω"]}},
+            {"id":"u","width":1,"labels":{"pc":["U","",""],"macos":["U","","¨"]}},
+            {"id":"i","width":1,"labels":{"pc":["I","",""],"macos":["I","","⁄"]}},
+            {"id":"o","width":1,"labels":{"pc":["O","",""],"macos":["O","","ø"]}},
+            {"id":"p","width":1,"labels":{"pc":["P","",""],"macos":["P","","π"]}},
+            {"id":"ue","width":1,"labels":{"pc":["Ü","",""],"macos":["Ü","","•"]}},
+            {"id":"plus","width":1,"labels":{"pc":["+","*","~"],"macos":["+","*","±"]}}
+          ]
+        },
+        {
+          "id": "home",
+          "keys": [
+            {"id":"caps-lock","width":1.75,"fixed_side":"left","action":"modifier","labels":{"pc":["Caps","",""],"macos":["⇪","",""]}},
+            {"id":"a","width":1,"labels":{"pc":["A","",""],"macos":["A","","å"]}},
+            {"id":"s","width":1,"labels":{"pc":["S","",""],"macos":["S","","‚"]}},
+            {"id":"d","width":1,"labels":{"pc":["D","",""],"macos":["D","","∂"]}},
+            {"id":"f","width":1,"labels":{"pc":["F","",""],"macos":["F","","ƒ"]}},
+            {"id":"g","width":1,"labels":{"pc":["G","",""],"macos":["G","","©"]}},
+            {"id":"h","width":1,"labels":{"pc":["H","",""],"macos":["H","","ª"]}},
+            {"id":"j","width":1,"labels":{"pc":["J","",""],"macos":["J","","º"]}},
+            {"id":"k","width":1,"labels":{"pc":["K","",""],"macos":["K","","∆"]}},
+            {"id":"l","width":1,"labels":{"pc":["L","",""],"macos":["L","","@"]}},
+            {"id":"oe","width":1,"labels":{"pc":["Ö","",""],"macos":["Ö","","œ"]}},
+            {"id":"ae","width":1,"labels":{"pc":["Ä","",""],"macos":["Ä","","æ"]}},
+            {"id":"hash","width":1,"labels":{"pc":["#","'",""],"macos":["#","'","‘"]}},
+            {"id":"enter","width":1.75,"fixed_side":"right","action":"modifier","labels":{"pc":["Enter","",""],"macos":["↩","",""]}}
+          ]
+        },
+        {
+          "id": "bottom",
+          "keys": [
+            {"id":"shift-left","width":1.5,"fixed_side":"left","action":"modifier","labels":{"pc":["Shift","",""],"macos":["⇧","",""]}},
+            {"id":"iso-bottom-left","width":1,"labels":{"pc":["<",">","|"],"macos":["^","°","„"]}},
+            {"id":"y","width":1,"labels":{"pc":["Y","",""],"macos":["Y","","¥"]}},
+            {"id":"x","width":1,"labels":{"pc":["X","",""],"macos":["X","","≈"]}},
+            {"id":"c","width":1,"labels":{"pc":["C","",""],"macos":["C","","ç"]}},
+            {"id":"v","width":1,"labels":{"pc":["V","",""],"macos":["V","","√"]}},
+            {"id":"b","width":1,"labels":{"pc":["B","",""],"macos":["B","","∫"]}},
+            {"id":"n","width":1,"labels":{"pc":["N","",""],"macos":["N","","~"]}},
+            {"id":"m","width":1,"labels":{"pc":["M","","µ"],"macos":["M","","µ"]}},
+            {"id":"comma","width":1,"labels":{"pc":[",",";",""],"macos":[",",";","∞"]}},
+            {"id":"period","width":1,"labels":{"pc":[".",":",""],"macos":[".",":","…"]}},
+            {"id":"minus","width":1,"labels":{"pc":["-","_",""],"macos":["-","_","–"]}},
+            {"id":"shift-right","width":2,"fixed_side":"right","action":"modifier","labels":{"pc":["Shift","",""],"macos":["⇧","",""]}}
+          ]
+        },
+        {
+          "id": "modifier",
+          "keys": [
+            {"id":"control-left","width":1.35,"fixed_side":"left","action":"modifier","labels":{"pc":["Strg","",""],"macos":["ctrl","",""]}},
+            {"id":"modifier-left-2","width":1.2,"fixed_side":"left","action":"modifier","labels":{"pc":["Super","",""],"macos":["option","",""]}},
+            {"id":"modifier-left-3","width":1.2,"fixed_side":"left","action":"modifier","labels":{"pc":["Alt","",""],"macos":["cmd","",""]}},
+            {"id":"action-left","width":2.75,"fixed_side":"left","action_slot":true,"labels":{"pc":["Leertaste","",""],"macos":["space","",""]}},
+            {"id":"action-right","width":2.75,"fixed_side":"right","action_slot":true,"labels":{"pc":["Leertaste","",""],"macos":["space","",""]}},
+            {"id":"modifier-right-1","width":1.2,"fixed_side":"right","action":"modifier","labels":{"pc":["AltGr","",""],"macos":["cmd","",""]}},
+            {"id":"modifier-right-2","width":1.35,"fixed_side":"right","action":"modifier","labels":{"pc":["Super","",""],"macos":["option","",""]}},
+            {"id":"control-right","width":1.35,"fixed_side":"right","action":"modifier","labels":{"pc":["Strg","",""],"macos":["ctrl","",""]}}
+          ]
+        }
+      ]
+    }
+  }
+}
